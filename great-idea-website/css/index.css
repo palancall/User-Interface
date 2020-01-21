@@ -186,7 +186,17 @@ nav a {
   margin: 80px 0 30px 63px;
   display: inline-block;
 }
+.title {
+  position: relative;
+  bottom: 90px;
+  left: 50px;
+  display: inline-block;
+  width: 49%;
+  padding: 40px;
+}
 #button {
+  position: relative;
+  left: 80px;
   display: inline-block;
   border: 1px solid black;
   text-decoration: none;
@@ -196,18 +206,13 @@ nav a {
   color: black;
   font-size: 16px;
 }
-header {
-}
+
 section {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   padding: 40px 0;
 }
-.title {
-  display: inline-block;
-  width: 49%;
-  padding: 40px;
-}
+
 span {
   display: inline-block;
   width: 320px;
