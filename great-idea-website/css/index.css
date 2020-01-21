@@ -264,6 +264,7 @@ footer p {
 .body-section {
   display: inline-block;
   width: 31%;
+  margin-right: 10px;
 }
 .body-section2 {
   display: inline-block;
