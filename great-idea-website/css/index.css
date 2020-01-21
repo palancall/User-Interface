@@ -156,16 +156,23 @@ nav {
   background-color: RGBA(0, 0, 0, 0.85);
   position: fixed;
   top: 0;
+  box-sizing: border-box;
 
   padding: 20px 0;
   border-radius: 0 0 5px 5px;
 }
 nav a {
   text-decoration: none;
-  margin: 0 30px;
+  margin: 0 33px;
   font-size: 14px;
   color: white;
   padding: 15px 0;
+}
+nav a:hover {
+  margin: 0, 33px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 5px 0;
 }
 section {
   border-top: 1px solid black;
