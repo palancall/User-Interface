@@ -150,6 +150,7 @@ h5 {
 }
 
 /* Your code starts here! */
+
 .container {
   width: 970px;
   margin: 0 auto;
@@ -159,28 +160,36 @@ h5 {
   width: 876px;
   margin: 0 auto;
 }
+
 nav {
   display: inline-block;
-  margin-top: 50px;
+  background-color: RGBA(0, 0, 0, 0.85);
+  position: fixed;
+  top: 0;
+
+  padding: 20px 0;
+  border-radius: 0 0 5px 5px;
 }
 nav a {
   text-decoration: none;
-  margin: 30px 30px;
+  margin: 30px;
   font-size: 14px;
-  color: gray;
+  color: white;
 }
 .nav-div {
   display: inline-block;
+  margin: 0px;
 }
 .logo-div {
   display: inline-block;
+  margin: 0px;
 }
 .logo {
   position: absolute;
   top: 1px;
   display: inline-block;
-  margin-top: 45px;
-  margin-left: 40px;
+  margin-top: 12px;
+  margin-left: 35%;
 }
 .top-img {
   margin: 80px 0 30px 63px;
@@ -228,6 +237,7 @@ h3 {
 }
 p {
   font-size: 16px;
+  font-family: "Raleway", sans-serif;
 }
 
 .body-section {
