@@ -163,7 +163,7 @@ nav {
 }
 nav a {
   text-decoration: none;
-  margin: 0 33px;
+  margin: 0 30px;
   font-size: 14px;
   color: white;
   padding: 15px 0;
@@ -264,7 +264,6 @@ footer p {
 .body-section {
   display: inline-block;
   width: 31%;
-  margin-right: 10px;
 }
 .body-section2 {
   display: inline-block;
