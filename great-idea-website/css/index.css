@@ -151,16 +151,6 @@ h5 {
 
 /* Your code starts here! */
 
-.container {
-  width: 970px;
-  margin: 0 auto;
-  border: 1px solid lightgray;
-}
-.page {
-  width: 876px;
-  margin: 0 auto;
-}
-
 nav {
   display: inline-block;
   background-color: RGBA(0, 0, 0, 0.85);
@@ -172,9 +162,56 @@ nav {
 }
 nav a {
   text-decoration: none;
-  margin: 30px;
+  margin: 0 30px;
   font-size: 14px;
   color: white;
+  padding: 15px 0;
+}
+section {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 40px 0;
+}
+
+span {
+  display: inline-block;
+  width: 320px;
+  text-align: center;
+}
+h1 {
+  font-size: 4rem;
+  display: inline-block;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+h6 {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+}
+p {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+footer {
+  padding: 40px 0;
+}
+footer p {
+  margin-bottom: 20px;
+}
+.container {
+  width: 970px;
+  margin: 0 auto;
+  border: 1px solid lightgray;
+}
+.page {
+  width: 876px;
+  margin: 0 auto;
 }
 .nav-div {
   display: inline-block;
@@ -185,11 +222,18 @@ nav a {
   margin: 0px;
 }
 .logo {
-  position: absolute;
+  position: static;
   top: 1px;
   display: inline-block;
   margin-top: 12px;
-  margin-left: 35%;
+  margin-left: 367%;
+}
+.background-img {
+  margin-top: 50px;
+  display: inline-block;
+  background-image: url("../img/header-img.png");
+  height: 379px;
+  width: 379px;
 }
 .top-img {
   margin: 80px 0 30px 63px;
@@ -203,6 +247,42 @@ nav a {
   width: 49%;
   padding: 40px;
 }
+
+.services {
+  position: absolute;
+  top: 20px;
+  bottom: 100px;
+}
+
+.body-section {
+  display: inline-block;
+  width: 31%;
+  margin-right: 10px;
+}
+.body-section2 {
+  display: inline-block;
+  background-color: #f0f0f0;
+  width: 49%;
+  height: 200px;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 8px 6px -6px black;
+}
+.body-section2 h3 {
+  text-align: center;
+}
+.middle-img {
+  margin: 40px 0;
+}
+.section-top {
+  width: 48%;
+}
+
+.copyright {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 14px;
+}
 #button {
   position: relative;
   left: 80px;
@@ -214,52 +294,4 @@ nav a {
   text-align: center;
   color: black;
   font-size: 16px;
-}
-
-section {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding: 40px 0;
-}
-
-span {
-  display: inline-block;
-  width: 320px;
-  text-align: center;
-}
-
-h1 {
-  font-size: 4rem;
-  display: inline-block;
-}
-h3 {
-  font-size: 18px;
-}
-p {
-  font-size: 16px;
-  font-family: "Raleway", sans-serif;
-}
-
-.body-section {
-  display: inline-block;
-  width: 31%;
-  margin-right: 10px;
-}
-.middle-img {
-  margin: 40px 0;
-}
-.section-top {
-  width: 48%;
-}
-footer {
-  padding: 40px 0;
-}
-footer p {
-  margin-bottom: 20px;
-}
-
-.copyright {
-  text-align: center;
-  padding: 40px 0;
-  font-size: 14px;
 }
