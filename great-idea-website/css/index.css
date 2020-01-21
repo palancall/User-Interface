@@ -151,17 +151,86 @@ h5 {
 
 /* Your code starts here! */
 
-.container {
+.page {
   width: 876px;
   margin: 0 auto;
+  border: 1px solid gray;
+}
+nav {
+  display: inline-block;
+  margin-top: 30px;
+}
+nav a {
+  text-decoration: none;
+  margin: 30px 30px;
+  font-size: 14px;
+  color: gray;
+}
+.nav-div {
+  display: inline-block;
+}
+.logo-div {
+  display: inline-block;
+}
+.logo {
+  position: absolute;
+  top: 1px;
+  display: inline-block;
+  margin-top: 25px;
+}
+.top-img {
+  margin: 50px 0;
+  display: inline-block;
+}
+#button {
+  display: inline-block;
   border: 1px solid black;
+  text-decoration: none;
 }
 header {
   border: 1px solid blue;
 }
 section {
-  border: 1px solid brown;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 40px 0;
+}
+.title {
+  display: inline-block;
+  width: 49%;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 4rem;
+  display: inline-block;
+}
+h3 {
+  font-size: 18px;
+}
+p {
+  font-size: 16px;
+}
+
+.body-section {
+  display: inline-block;
+  width: 31%;
+  margin-right: 10px;
+}
+.middle-img {
+  margin: 40px 0;
+}
+.section-top {
+  width: 48%;
 }
 footer {
-  border: 1px solid green;
+  padding: 40px 0;
+}
+footer p {
+  margin-bottom: 20px;
+}
+
+.copyright {
+  text-align: center;
+  padding: 40px 0;
 }
